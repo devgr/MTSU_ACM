@@ -1,0 +1,61 @@
+Overall site layout
+
+style - dark theme
+	http://bootswatch.com/darkly/
+
+Landing page - One page app
+	Home (that's the landing page)
+		scrolling image (carousel)
+		About us
+		Next Event
+		Officers, maybe 
+			with links to their public profiles
+	Link to facebook group
+
+	Events (public viewable, admin editable)
+		Event
+			Title
+			Image (url to image store)
+			Details text
+			Date
+			Time, duration
+	News (public viewable, admin editable)
+		News story
+			Title
+			Image (url to image store)
+			Big text field (can include links)
+			date / time
+		
+	Link to MTSU (public)
+	Degree info (public)
+	Terms of service
+	Login to private site
+
+
+Login (not register)
+	Profile (can mark what you want to be publicly viewable)
+		one to one with authentication entry
+			Unique User ID
+			Password
+		Permission level (member, officer, admin, etc)
+		First name, last name
+		email address
+		Major
+		Year
+		Profile picture
+		about me field
+		one to many relationship with projects?
+		one to many relationship with posts?
+
+	News feed (All members can post to it)
+		Post
+			text field (reg ex finds links in it)
+			relaltion to comments thread? not sure how to approach that
+
+	Projects
+		Project
+			Title
+			Description
+			Images
+			Members
+			Posts
